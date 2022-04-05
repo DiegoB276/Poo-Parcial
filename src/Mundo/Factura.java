@@ -86,7 +86,7 @@ public class Factura {
 				"Iva: " + this.iva + "%\n" +
 				"Descuento: " + this.descuento + "%\n" +
 				"Total: " + this.total +  "\n" +
-				"Estado: " + this.estado + "\n" );
+				"Estado: " + this.estado + "\n" ); 
 	}
 	
 }

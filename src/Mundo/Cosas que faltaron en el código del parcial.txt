@@ -11,11 +11,11 @@ Error (1) Clase metodosFactura. -----------------------------
 			error(1.2) -> Funcion crearNuevaFacturaConDescuento.
 							- El resultado de estado al crear un objeto factura con descuento es null. (Solucion en el error 4.1)
 	
-Error (3) -> Clase ControlFactura. -----------------------------
+Error (2) -> Clase ControlFactura. -----------------------------
 		
 		
 Clase Factura. -------------------------------------
-error(4) -> Constructor Factura()	
-				- Faltó inicializar el atributo estado, por eso al retornar la funcion crear objeto con descuento retorna un null.
+error(3) -> Constructor Factura()	
+			error(3.1) -> Faltó inicializar el atributo estado, por eso al retornar la funcion crear objeto con descuento retorna un null.
 		
 */
