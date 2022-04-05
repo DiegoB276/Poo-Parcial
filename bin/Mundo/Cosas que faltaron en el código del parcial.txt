@@ -1,0 +1,21 @@
+/*
+
+Problemas y Errores en el codigo del parcial.
+
+Error (1) Clase metodosFactura. -----------------------------
+
+			error(1.1) -> Funcion resumenFacturas.
+							- faltó quitar los comentarios.
+							- No está haciendo lo que se pide, la funcion no sirve.
+			
+			error(1.2) -> Funcion crearNuevaFacturaConDescuento.
+							- El resultado de estado al crear un objeto factura con descuento es null. (Solucion en el error 4.1)
+	
+Error (3) -> Clase ControlFactura. -----------------------------
+		
+		
+Clase Factura. -------------------------------------
+error(4) -> Constructor Factura()	
+				- Faltó inicializar el atributo estado, por eso al retornar la funcion crear objeto con descuento retorna un null.
+		
+*/
