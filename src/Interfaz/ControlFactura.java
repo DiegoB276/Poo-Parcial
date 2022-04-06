@@ -61,14 +61,17 @@ public class ControlFactura {
 				System.out.println("Escriba el numero de factura\n");
 				int auxNumFac = so.nextInt();
 				System.out.println("Escriba el nuevo valor de descuento\n");
-				int auxDes2c = so.nextInt();
-				System.out.println(f1.modificarDescuentoFactura(auxNumFac, auxDes2c));
+				int auxDesc2 = so.nextInt();
+				System.out.println(f1.modificarDescuentoFactura(auxNumFac, auxDesc2));
 				break;
 				
 			case 4:
 				break;
 				
 			case 5:
+				System.out.println("Escribe el numero de la factura a anular");
+				int auxFacAnul = so.nextInt();
+				System.out.println(f1.anularFactura(auxFacAnul)); 
 				break;
 				
 			case 6:
