@@ -66,6 +66,9 @@ public class ControlFactura {
 				break;
 				
 			case 4:
+				System.out.println("Escribe el numero de la factura a cancelar");
+				int auxFacCancel = so.nextInt();
+				System.out.println(f1.cancelarFactura(auxFacCancel));
 				break;
 				
 			case 5:

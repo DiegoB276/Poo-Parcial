@@ -1,7 +1,7 @@
 /*
 Marzo - 5 - 2022 (7:29pm)
 
-Errores y novedades en el codigo del parcial. v1.1
+Errores y novedades en el codigo. v1.1
 
 Error (1) Clase metodosFactura. ------------------------------
 
@@ -20,6 +20,27 @@ Error (2) -> Clase ControlFactura. -----------------------------
 		
 Clase Factura. -------------------------------------
 error(3) -> Constructor Factura()	
-			error(3.1) -> Faltó inicializar el atributo estado, por eso al retornar la funcion crear objeto con descuento retorna un null.   
-		
+			error(3.1) -> Faltó inicializar el atributo estado, por eso al retornar la funcion crear objeto con descuento retorna un null.  
+			
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+Marzo - 5 - 2022 (7:22pm)
+
+Errores y novedades del codigo	v1.2
+
+Error (1) Clase metodosFactura. ------------------------------
+
+		 	novedad(1.1) -> Funcion cancelarFacturas.
+ 						 	  - Se creó el método cancelarFacturas.
+ 						 	  
+			novedad(1.2) -> Función resumenFacturas.
+							  - Se eliminó temporalmente la función resumenFacturas
+
+Error (2) -> Clase ControlFactura. -----------------------------
+			
+			Novedad(2.1) -> Sentencia switch.
+							-Se añadió la opción anular factura.
+							-Se añadió la función calcular factura.
+ 						 	  
 */
