@@ -82,10 +82,10 @@ public class Factura {
 	public String toString(){
 		return("Información de la factura:" + "\n" +
 				"Numero de factura: " + this.numDeFactura + "\n" + 
-				"SubTotal: " + this.subTotal + "\n" +
-				"Iva: " + this.iva + "%\n" +
-				"Descuento: " + this.descuento + "%\n" +
-				"Total: " + this.total +  "\n" +
+				"SubTotal: $" + this.subTotal + "\n" +
+				"Iva(19%): $" + (this.subTotal*this.iva/100) + "\n" +
+				"Descuento("+this.descuento+"%): $" + (this.subTotal*this.descuento/100) + "\n" +
+				"Total: $" + (this.total = this.subTotal - (this.subTotal*this.iva/100) - (this.subTotal*this.descuento /100) ) + "\n" +
 				"Estado: " + this.estado + "\n" ); 
 	}
 	  

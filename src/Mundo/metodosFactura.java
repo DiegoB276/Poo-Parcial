@@ -36,6 +36,10 @@ public class metodosFactura {
 				res = "El numero de factura no puede ser negativo";
 			}
 		}
+		else {
+			res = "ERROR! La factura ya existe";
+		}
+		
 		return (res);
 
 	}
@@ -55,6 +59,9 @@ public class metodosFactura {
 			} else {
 				res = "El numero de factura no puede ser negativo";
 			}
+		}
+		else {
+			res = "ERROR! La factura ya existe";
 		}
 		return (res);
 	}

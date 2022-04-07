@@ -39,7 +39,7 @@ Error (1) Clase metodosFactura. ------------------------------
 
 Error (2) -> Clase ControlFactura. -----------------------------
 			
-			Novedad(2.1) -> Sentencia switch.
+			novedad(2.1) -> Sentencia switch.
 							-Se añadió la opción anular factura.
 							-Se añadió la función calcular factura.
 							
@@ -55,7 +55,27 @@ Error (1) Clase metodosFactura. ------------------------------
 
 Error (2) -> Clase ControlFactura. -----------------------------
 			
-			Novedad(2.1) -> Sentencia switch.
+			novedad(2.1) -> Sentencia switch.
 							-Se añadió en el caso 7 del switch la función resumen, desarrollada en la novedad (1.1)
- 						 	  
+							
+						
+						
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Abril - 7 - 2022 ()
+
+Errores y novedades del código v1.4
+
+Error (1) Clase metodosFactura. ------------------------------
+
+		 	novedad(1.1) -> Funcion crearNuevaFactura.
+		 						- Se creó una execpcion, un mensaje de error cuando se crea una factura con el mismo numero de factura.
+
+Error (2) -> Clase ControlFactura. -----------------------------
+			
+			novedad(2.1) -> 
+							- Se creó una execpcion, un mensaje de error cuando se crea una factura con el mismo numero de factura.
+
+Error(3) -> Clase Factura() 
+							- Se actualizó la funcion toString para calcular el el precio del subtotal con el iva y el precio del subtotal con el descuento.				 	  
 */
