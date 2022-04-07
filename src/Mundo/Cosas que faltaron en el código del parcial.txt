@@ -73,7 +73,7 @@ Error (1) Clase metodosFactura. ------------------------------
 
 Error (2) -> Clase ControlFactura. -----------------------------
 			
-			novedad(2.1) -> 
+			novedad(2.1) -> Funcion crearNuevaFacturaConDescuento
 							- Se creó una execpcion, un mensaje de error cuando se crea una factura con el mismo numero de factura.
 
 Error(3) -> Clase Factura() -----------------------------------
