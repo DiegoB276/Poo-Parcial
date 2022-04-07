@@ -76,6 +76,7 @@ Error (2) -> Clase ControlFactura. -----------------------------
 			novedad(2.1) -> 
 							- Se creó una execpcion, un mensaje de error cuando se crea una factura con el mismo numero de factura.
 
-Error(3) -> Clase Factura() 
+Error(3) -> Clase Factura() -----------------------------------
+			novedad(2.1) -> 
 							- Se actualizó la funcion toString para calcular el el precio del subtotal con el iva y el precio del subtotal con el descuento.				 	  
 */
