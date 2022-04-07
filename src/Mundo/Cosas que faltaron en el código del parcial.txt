@@ -1,5 +1,5 @@
 /*
-Abril - 5 - 2022 (7:29pm)
+Abril - 5 - 2022 
 
 Errores y novedades en el codigo. v1.1
 
@@ -25,7 +25,7 @@ error(3) -> Constructor Factura()
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
  
-Abril - 5 - 2022 (8:22pm)
+Abril - 5 - 2022 
 
 Errores y novedades del codigo	v1.2
 
@@ -45,7 +45,7 @@ Error (2) -> Clase ControlFactura. -----------------------------
 							
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
-Abril - 7 - 2022 (1:40pm)
+Abril - 7 - 2022 
 
 Errores y novedades del código v1.3
 
@@ -62,7 +62,7 @@ Error (2) -> Clase ControlFactura. -----------------------------
 						
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
-Abril - 7 - 2022 (4:02pm)
+Abril - 7 - 2022 
 
 Errores y novedades del código v1.4
 
@@ -77,6 +77,6 @@ Error (2) -> Clase ControlFactura. -----------------------------
 							- Se creó una execpcion, un mensaje de error cuando se crea una factura con el mismo numero de factura.
 
 Error(3) -> Clase Factura() -----------------------------------
-			novedad(2.1) -> 
+			novedad(3.1) -> 
 							- Se actualizó la funcion toString para calcular el el precio del subtotal con el iva y el precio del subtotal con el descuento.				 	  
 */
