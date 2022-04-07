@@ -88,5 +88,5 @@ public class Factura {
 				"Total: " + this.total +  "\n" +
 				"Estado: " + this.estado + "\n" ); 
 	}
-	
+	  
 }
