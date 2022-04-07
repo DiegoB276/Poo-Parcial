@@ -95,7 +95,7 @@ public class metodosFactura {
 		return (rta);
 
 	}
-	
+
 	/*
 	 * Cambia el estado de la factura de Pendiente a cancelada, se busca la factura
 	 * por su numero y se procede a eliminar. Tambien se valida si el estado de la
@@ -161,6 +161,27 @@ public class metodosFactura {
 	}
 
 	/* La funcion calculará el numero de facturas */
-	
+	public String resumenFacturas() {
+		int x = 0, y = 0, z = 0;
+		for (int i = 0; i < a1.size(); i++) {
+			if (a1.get(i).getEstado() == "Pendiente") {
+				x++;
+			}
+		}
+		for (int i = 0; i < a1.size(); i++) {
+			if (a1.get(i).getEstado() == "Anulada") {
+				y++;
+			}
+		}
+		for (int i = 0; i < a1.size(); i++) {
+			if (a1.get(i).getEstado() == "Cancelada") {
+				z++;
+			}
+		}
+		return ("Facturas Pendientes: " + x + 
+				"\n" + "Facturas Anuladas: " + y + 
+				"\n" + "Facturas Canceladas: " + z + "\n");
+
+	}
 
 }

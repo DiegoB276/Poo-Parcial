@@ -78,7 +78,7 @@ public class ControlFactura {
 				break;
 				
 			case 6:
-				 
+				 System.out.println(f1.resumenFacturas());
 				break;
 				
 			case 7:

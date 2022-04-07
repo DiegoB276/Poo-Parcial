@@ -1,5 +1,5 @@
 /*
-Marzo - 5 - 2022 (7:29pm)
+Abril - 5 - 2022 (7:29pm)
 
 Errores y novedades en el codigo. v1.1
 
@@ -25,7 +25,7 @@ error(3) -> Constructor Factura()
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
  
-Marzo - 5 - 2022 (8:22pm)
+Abril - 5 - 2022 (8:22pm)
 
 Errores y novedades del codigo	v1.2
 
@@ -42,5 +42,20 @@ Error (2) -> Clase ControlFactura. -----------------------------
 			Novedad(2.1) -> Sentencia switch.
 							-Se añadió la opción anular factura.
 							-Se añadió la función calcular factura.
+							
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Abril - 7 - 2022 ()
+
+Errores y novedades del código v1.3
+
+Error (1) Clase metodosFactura. ------------------------------
+
+		 	novedad(1.1) -> Se creó la funcion resumenFacturas para calcular la cantidad de facturas
+
+Error (2) -> Clase ControlFactura. -----------------------------
+			
+			Novedad(2.1) -> Sentencia switch.
+							-Se añadió en el caso 7 del switch la función resumen, desarrollada en la novedad (1.1)
  						 	  
 */
